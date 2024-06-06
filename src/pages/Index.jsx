@@ -17,23 +17,23 @@ const Index = () => {
   return (
     <Container centerContent maxW="container.md" height="100vh" display="flex" flexDirection="column" justifyContent="center" alignItems="center">
       <VStack spacing={4}>
-        <Box width="300px" height="300px" position="relative" transform={`rotateX(${angle}deg) rotateY(${rotation}deg)`} transition="transform 0.5s" transformStyle="preserve-3d" perspective="500px">
-          <Box position="absolute" width="300px" height="300px" bg="cyan.500" display="flex" justifyContent="center" alignItems="center" color="white" fontWeight="bold" boxShadow="0 4px 8px rgba(0, 0, 0, 0.3)" border="1px solid rgba(255, 255, 255, 0.3)" transform="translateZ(150px)">
+        <Box width="300px" height="300px" position="relative" transform={`rotateX(${angle}deg) rotateY(${rotation}deg)`} transition="transform 0.5s" transformStyle="preserve-3d" perspective="500px" bg="gray.800">
+          <Box position="absolute" width="300px" height="300px" bg="cyan.500" display="flex" justifyContent="center" alignItems="center" color="white" fontWeight="bold" boxShadow="0 4px 8px rgba(0, 0, 0, 0.3)" border="1px solid rgba(255, 255, 255, 0.3)" transform="translateZ(200px)">
             Front
           </Box>
-          <Box position="absolute" width="300px" height="300px" bg="red.500" display="flex" justifyContent="center" alignItems="center" color="white" fontWeight="bold" boxShadow="0 4px 8px rgba(0, 0, 0, 0.3)" border="1px solid rgba(255, 255, 255, 0.3)" transform="rotateY(180deg) translateZ(150px)">
+          <Box position="absolute" width="300px" height="300px" bg="red.500" display="flex" justifyContent="center" alignItems="center" color="white" fontWeight="bold" boxShadow="0 4px 8px rgba(0, 0, 0, 0.3)" border="1px solid rgba(255, 255, 255, 0.3)" transform="rotateY(180deg) translateZ(200px)">
             Back
           </Box>
-          <Box position="absolute" width="300px" height="300px" bg="green.500" display="flex" justifyContent="center" alignItems="center" color="white" fontWeight="bold" boxShadow="0 4px 8px rgba(0, 0, 0, 0.3)" border="1px solid rgba(255, 255, 255, 0.3)" transform="rotateY(90deg) translateZ(150px)">
+          <Box position="absolute" width="300px" height="300px" bg="green.500" display="flex" justifyContent="center" alignItems="center" color="white" fontWeight="bold" boxShadow="0 4px 8px rgba(0, 0, 0, 0.3)" border="1px solid rgba(255, 255, 255, 0.3)" transform="rotateY(90deg) translateZ(200px)">
             Right
           </Box>
-          <Box position="absolute" width="300px" height="300px" bg="yellow.500" display="flex" justifyContent="center" alignItems="center" color="white" fontWeight="bold" boxShadow="0 4px 8px rgba(0, 0, 0, 0.3)" border="1px solid rgba(255, 255, 255, 0.3)" transform="rotateY(-90deg) translateZ(150px)">
+          <Box position="absolute" width="300px" height="300px" bg="yellow.500" display="flex" justifyContent="center" alignItems="center" color="white" fontWeight="bold" boxShadow="0 4px 8px rgba(0, 0, 0, 0.3)" border="1px solid rgba(255, 255, 255, 0.3)" transform="rotateY(-90deg) translateZ(200px)">
             Left
           </Box>
-          <Box position="absolute" width="300px" height="300px" bg="purple.500" display="flex" justifyContent="center" alignItems="center" color="white" fontWeight="bold" boxShadow="0 4px 8px rgba(0, 0, 0, 0.3)" border="1px solid rgba(255, 255, 255, 0.3)" transform="rotateX(90deg) translateZ(150px)">
+          <Box position="absolute" width="300px" height="300px" bg="purple.500" display="flex" justifyContent="center" alignItems="center" color="white" fontWeight="bold" boxShadow="0 4px 8px rgba(0, 0, 0, 0.3)" border="1px solid rgba(255, 255, 255, 0.3)" transform="rotateX(90deg) translateZ(200px)">
             Top
           </Box>
-          <Box position="absolute" width="300px" height="300px" bg="orange.500" display="flex" justifyContent="center" alignItems="center" color="white" fontWeight="bold" boxShadow="0 4px 8px rgba(0, 0, 0, 0.3)" border="1px solid rgba(255, 255, 255, 0.3)" transform="rotateX(-90deg) translateZ(150px)">
+          <Box position="absolute" width="300px" height="300px" bg="orange.500" display="flex" justifyContent="center" alignItems="center" color="white" fontWeight="bold" boxShadow="0 4px 8px rgba(0, 0, 0, 0.3)" border="1px solid rgba(255, 255, 255, 0.3)" transform="rotateX(-90deg) translateZ(200px)">
             Bottom
           </Box>
         </Box>
